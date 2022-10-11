@@ -1,2 +1,5 @@
 
-console.log("privet");
+
+
+console.log("Privet");
+console.log("Privests");
