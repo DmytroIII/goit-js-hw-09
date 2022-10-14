@@ -16,3 +16,40 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/*  color-swichers */
+.buttons {
+  position: absolute;
+  text-align: center;
+  margin-top: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  text-transform: uppercase;
+}
+
+/*  timer */
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column
+}
+
+.value {
+ text-align: center;
+}
+
+.label {
+  font-size: 8px;
+  text-transform: uppercase;
+}
