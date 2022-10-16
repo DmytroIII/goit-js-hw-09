@@ -5,7 +5,7 @@ import Notiflix from 'notiflix';
 import "notiflix/dist/notiflix-3.2.5.min.css";
 
 const submitForm = document.querySelector('.form')
-const promisesButton = document.querySelector('button[type="submit"]');
+const promisesButton = document.querySelector('button[type=submit]');
 
 
 
@@ -17,7 +17,7 @@ function newPromise(position, delay) {
       if (shouldResolve) {
         resolve({ position, delay });
       } else {
-        reject({ position, delay })
+        reject({ position, delay });
       }
     }, delay);
   })
@@ -47,6 +47,7 @@ function onClick(evt) {
 
     });
 
+    submitForm.reset();
   delay += step;
 }
 

@@ -71,7 +71,7 @@ function onClick() {
         dateMinutes.textContent = addLeadingZero(timeForCounter.minutes, 0);
         dateSeconds.textContent = addLeadingZero(timeForCounter.seconds, 0);
 
-        startCounterBtn.disabled = true;
+        buttonStart.disabled = true;
 
         if (timeForCounter.days === 0 && timeForCounter.hours === 0 
             && timeForCounter.minutes === 0 && timeForCounter.seconds === 0) {
