@@ -50,8 +50,6 @@ function onClick(evt) {
     submitForm.reset();
   delay += step;
 }
-
-setTimeout(() => { submitForm.reset(); }, delay * 2);
 }
 
 /* import { formats } from 'flatpickr/dist/utils/formatting'; */
